@@ -4,7 +4,7 @@ on:
   push:
 jobs:
     ml_run:
-      runs-on: unbuntu-latest
+      runs-on: ubuntu-latest
       steps:
         - name: Checkout code
           uses: actions/checkout@v4 #checkout means cloning.
