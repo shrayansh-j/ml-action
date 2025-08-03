@@ -1,7 +1,7 @@
 name: ML Run
 
 on:
-  push:
+  workflow_dispatch:
 jobs:
     ml_run:
       runs-on: ubuntu-latest
