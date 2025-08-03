@@ -34,4 +34,4 @@ jobs:
             pip install -r requirements.txt
         
         - name: deploy
-        run: echo 'deployment of the model'
+          run: echo 'deployment of the model'
